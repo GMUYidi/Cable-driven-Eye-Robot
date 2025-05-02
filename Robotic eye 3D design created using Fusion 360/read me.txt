@@ -1,0 +1,70 @@
+Robotic Eye 3D Printable Model (STL Files)
+This repository contains the 3D design models (STL format) of a robotic eyeball platform designed using AutoDesk Fusion 360 and fabricated via PLA 3D printing. These models are part of the study:
+
+"A Novel Cable-driven Eye Robot For Human Vision Visualization and Strabismus Diagnosis"
+
+The models enable the construction of a robotic eyeball capable of integrating sensors such as the BNO055 IMU, supporting precise anatomical replication and experimental studies.
+
+Overview of Components
+The robotic eyeball model consists of the following printable parts:
+
+Main base of left eye
+
+Main base of right eye
+
+Front eye support of left eye
+
+Front eye support of right eye
+
+Front half of the eyeball adapted for the BNO055 IMU
+
+Rear half of the eyeball adapted for the BNO055 IMU
+
+Bolt (for assembly purposes)
+
+These parts are designed as modular components to facilitate easy assembly, maintenance, and integration of electronics such as IMUs and camera modules.
+
+Design Software
+AutoDesk Fusion 360
+The models were designed using Fusion 360 and exported as STL files for 3D printing.
+
+Fabrication Method
+Material: PLA (Polylactic Acid)
+
+Printer Type: Standard FDM 3D printer
+
+Recommended Print Settings:
+
+Layer height: 0.2 mm
+
+Infill: 20–40%
+
+Supports: Required for overhanging parts (especially eye halves)
+
+Orientation: For optimal surface quality and strength, follow the Fusion 360 design orientation.
+
+Assembly
+The front half and rear half of the eyeball are designed to enclose the BNO055 IMU securely.
+
+The main base and eye supports hold the eyeball while allowing controlled rotation via cable-driven mechanisms.
+
+Bolts are provided to secure parts during assembly.
+
+Usage
+The printed robotic eye model can be used for:
+
+Replicating human eye movement with anatomical realism
+
+Integrating sensors for eye motion tracking (IMU, camera)
+
+Experimental validation of robotic eye control strategies
+
+Visual demonstration and education purposes
+
+License
+The provided STL models are released under the MIT License for academic and research use only. For commercial use, please contact the authors.
+
+Citation
+If you use these models in your research, please cite:
+
+Yidi Huang, Qi Wei, Joseph L. Demer, and Ningshi Yao. A Novel Cable-driven Eye Robot For Human Vision Visualization and Strabismus Diagnosis. Scientific Reports, 2025.

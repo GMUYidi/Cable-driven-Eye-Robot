@@ -1,0 +1,62 @@
+Eye Gaze Trajectory Visualization Script
+
+This script (eye_track.m) visualizes processed eye gaze trajectory data from human participants. It plots the spatial trajectories and the temporal changes of gaze angles (yaw and pitch) from both eyes while watching a standardized video stimulus.
+
+This code is associated with the Scientific Reports manuscript:
+
+"A Novel Cable-driven Eye Robot For Human Vision Visualization and Strabismus Diagnosis"
+
+Overview
+The script loads processed eye gaze data in .mat format and generates the following visualizations:
+
+Gaze trajectory plot
+2D plot showing left and right eye movement paths across the display.
+
+Yaw angle plot (Eye angle X)
+Time series plot showing horizontal eye angle changes for both eyes.
+
+Pitch angle plot (Eye angle Y)
+Time series plot showing vertical eye angle changes for both eyes.
+
+All figures are automatically saved as .jpg images for further use.
+
+Input
+Processed eye tracking dataset (.mat file)
+
+GazePointSmoothed_cell: Smoothed 2D gaze positions (left and right eyes)
+
+GazeAngleSmoothed_cell: Smoothed gaze angles (yaw and pitch)
+
+datatime_cell: Timestamps
+
+Output
+The following figures will be saved in the same directory as the script:
+
+eyetrack.jpg: Left and right eye 2D gaze paths
+
+eyeangleX.jpg: Yaw angles (Eye angle X) over time
+
+eyeangleY.jpg: Pitch angles (Eye angle Y) over time
+
+Usage
+Make sure MATLAB is installed.
+
+Prepare a .mat file that includes the processed eye tracking data as described above.
+
+Open and run eye_track.m in MATLAB.
+
+The script will:
+
+Load the .mat file
+
+Extract gaze points and angles
+
+Plot and save trajectory and angle plots as .jpg files
+
+License
+This code is released under the MIT License for academic and non-commercial use.
+
+Citation
+If you use this script or its output for publications, please cite:
+
+Yidi Huang, Qi Wei, Joseph L. Demer, and Ningshi Yao. A Novel Cable-driven Eye Robot For Human Vision Visualization and Strabismus Diagnosis. Scientific Reports, 2025.
