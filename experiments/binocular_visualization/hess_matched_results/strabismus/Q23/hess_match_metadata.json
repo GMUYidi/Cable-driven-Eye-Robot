@@ -1,0 +1,55 @@
+{
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_Q23",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_Q23",
+  "base_matrix_npz": "D:\\visualization2026\\dowsample2_Q23\\matrices\\applied_health_second_homographies_Q23.npz",
+  "base_stitched_dir": "D:\\visualization2026\\dowsample2_Q23\\stitched_frames",
+  "strabismus_mat": "D:\\visualization2026\\Hess chart\\bilinear interpolation\\strabismus data\\simulated_strabismus_Q23.mat",
+  "hess_chart_image": "D:\\visualization2026\\Hess chart\\small bias data\\Q23 pre-op Hess.pdf",
+  "output_dir": "D:\\visualization2026\\dowsample2_Q23_hess_matched\\stitched_frames",
+  "matrix_output_npz": "D:\\visualization2026\\dowsample2_Q23_hess_matched\\matrices\\hess_matched_homographies_Q23.npz",
+  "report_csv": "D:\\visualization2026\\dowsample2_Q23_hess_matched\\hess_match_report.csv",
+  "debug_sheet": "D:\\visualization2026\\dowsample2_Q23_hess_matched\\debug\\q23_hess_match_samples.jpg",
+  "frame_count": 900,
+  "jpeg_quality": 95,
+  "hess_metadata": {
+    "hess_data_rows": 1800,
+    "frame_index_min": 0,
+    "frame_index_max": 1798,
+    "residual_min_xy": [
+      -0.011342082585887397,
+      0.0011451396321344731
+    ],
+    "residual_max_xy": [
+      0.0488245135862187,
+      0.1504915412861455
+    ]
+  },
+  "hess_to_pixel_mapping": [
+    [
+      -5053.302285983991,
+      1702.0924445167745
+    ],
+    [
+      1093.4051448708713,
+      767.0372002961643
+    ]
+  ],
+  "mapping_inlier_count": 895,
+  "selected_pair_error_median_px": 36.372274825520186,
+  "selected_pair_error_p90_px": 71.60965077188906,
+  "selected_pair_error_max_px": 336.2308039967207,
+  "raw_correction_median_px": 36.372274825520186,
+  "raw_correction_p90_px": 71.60965077188906,
+  "raw_correction_max_px": 336.2308039967207,
+  "correction_median_px": 34.31511183057644,
+  "correction_p90_px": 65.59321830359603,
+  "correction_max_px": 95.95070496998103,
+  "max_correction_norm": 120.0,
+  "max_correction_temporal_deviation": 60.0,
+  "temporal_outlier_radius": 5,
+  "temporal_outlier_iterations": 6,
+  "temporal_outlier_count": 27,
+  "smooth_correction_window": 5,
+  "interpolated_correction_count": 28,
+  "method": "Base health_second canvas homographies plus split per-frame translations. Target vectors are fitted from Q23 Hess-derived simulated gaze residuals using frame-number indexing."
+}

@@ -1,0 +1,53 @@
+
+Cable-driven Eye Robot Dataset and Codes
+========================================
+
+This file preserves the older repository overview for historical context. The
+current GitHub layout has been reorganized into clearer engineering categories.
+
+Current folder mapping
+----------------------
+
+1) src/cable_driven_eye_robot and demos
+- Earlier control programs for the robotic eye platform have been replaced by
+  modular runtime code.
+- The active joystick, feedback, and eye-tracker replay demos now live in demos/.
+
+2) experiments/open_loop_accuracy
+- Data collected from pure open-loop inverse-kinematic control experiments.
+- Used to evaluate positioning accuracy without feedback control.
+
+3) experiments/eye_tracking
+- Eye-gaze data collected from participants using an eye tracker.
+- Used to reconstruct and analyze human eye trajectories.
+
+4) experiments/binocular_visualization/homography
+- Code and notebooks for homography-based binocular visualization.
+
+5) hardware/cad
+- Exported mechanical parts for the cable-driven robotic eye.
+
+6) experiments/binocular_visualization/strabismus_severity
+- Data and scripts used to simulate and quantify strabismus visual symptoms.
+
+7) media/videos
+- Videos demonstrating robotic-eye movements and binocular view synthesis.
+- Includes healthy vision, strabismus simulation, and calibration videos.
+
+GitHub Link for This Repository
+-------------------------------
+
+To clone this repository:
+
+https://github.com/GMUYidi/Cable-driven-Eye-Robot.git
+
+To view or share the webpage:
+
+https://github.com/GMUYidi/Cable-driven-Eye-Robot
+
+
+Note
+----
+
+- For questions and collaboration, please contact: yhuang35@gmu.edu
+- When pushing updates, please follow the Git upload guide in the prepared README.txt to avoid errors.

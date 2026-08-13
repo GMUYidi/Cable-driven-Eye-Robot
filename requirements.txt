@@ -1,0 +1,10 @@
+dynamixel-sdk
+numpy
+pygame
+pyserial
+opencv-python
+pillow
+pandas
+matplotlib
+scipy
+pyautogui

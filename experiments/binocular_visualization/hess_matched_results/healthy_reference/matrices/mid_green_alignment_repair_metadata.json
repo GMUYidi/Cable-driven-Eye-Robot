@@ -1,0 +1,14 @@
+{
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_health_second",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_health_second",
+  "output_root": "D:\\visualization2026\\dowsample2_health_second",
+  "repair_start_frame": 480,
+  "repair_end_frame": 720,
+  "anchor_frame": 540,
+  "repaired_frame_count": 121,
+  "mode": "overwrite",
+  "output_dir": "D:\\visualization2026\\dowsample2_health_second\\stitched_frames",
+  "mean_original_green_error_px": 32.772182939423466,
+  "max_original_green_error_px": 69.80544175721023,
+  "max_corrected_green_error_px": 6.915300366811402e-13
+}

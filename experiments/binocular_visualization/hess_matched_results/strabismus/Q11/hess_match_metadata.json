@@ -1,0 +1,45 @@
+{
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_Q11",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_Q11",
+  "base_matrix_npz": "D:\\visualization2026\\dowsample2_Q11\\matrices\\applied_health_second_homographies_Q11.npz",
+  "base_stitched_dir": "D:\\visualization2026\\dowsample2_Q11\\stitched_frames",
+  "strabismus_mat": "D:\\visualization2026\\Hess chart\\bilinear interpolation\\strabismus data\\simulated_strabismus_Q11.mat",
+  "hess_chart_image": "D:\\visualization2026\\Hess chart\\small bias data\\Q11 pre-op Hess.pdf",
+  "output_dir": "D:\\visualization2026\\dowsample2_Q11_hess_matched\\stitched_frames",
+  "matrix_output_npz": "D:\\visualization2026\\dowsample2_Q11_hess_matched\\matrices\\hess_matched_homographies_Q11.npz",
+  "report_csv": "D:\\visualization2026\\dowsample2_Q11_hess_matched\\hess_match_report.csv",
+  "debug_sheet": "D:\\visualization2026\\dowsample2_Q11_hess_matched\\debug\\q11_hess_match_samples.jpg",
+  "frame_count": 900,
+  "jpeg_quality": 95,
+  "hess_metadata": {
+    "hess_data_rows": 1800,
+    "frame_index_min": 0,
+    "frame_index_max": 1798,
+    "residual_min_xy": [
+      -0.024588970990059633,
+      -0.051941341670245056
+    ],
+    "residual_max_xy": [
+      0.024392666419849218,
+      -0.013114812629665518
+    ]
+  },
+  "hess_to_pixel_mapping": [
+    [
+      -915.2148123387352,
+      -900.7438722963957
+    ],
+    [
+      1061.0578693028708,
+      1147.4921093619607
+    ]
+  ],
+  "mapping_inlier_count": 740,
+  "selected_pair_error_median_px": 29.87591879192953,
+  "selected_pair_error_p90_px": 102.65639509095895,
+  "selected_pair_error_max_px": 155.2756702130822,
+  "correction_median_px": 29.87591879192953,
+  "correction_p90_px": 102.65639509095895,
+  "correction_max_px": 155.2756702130822,
+  "method": "Base health_second canvas homographies plus split per-frame translations. Target vectors are fitted from Q11 Hess-derived simulated gaze residuals using frame-number indexing."
+}

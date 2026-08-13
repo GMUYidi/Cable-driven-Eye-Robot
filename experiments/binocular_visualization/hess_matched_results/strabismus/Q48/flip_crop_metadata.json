@@ -1,0 +1,14 @@
+{
+  "input_dir": "D:\\visualization2026\\dowsample2_Q48_hess_matched\\stitched_frames",
+  "output_dir": "D:\\visualization2026\\dowsample2_Q48_hess_matched\\stitched_frames_flipped_cropped",
+  "frame_count": 900,
+  "black_threshold": 12,
+  "min_component_area": 20,
+  "erode_pixels": 2,
+  "resize_to": null,
+  "crop_width_min": 1569,
+  "crop_width_max": 2280,
+  "crop_height_min": 971,
+  "crop_height_max": 1198,
+  "all_crops_have_zero_invalid_pixels": true
+}

@@ -1,0 +1,11 @@
+{
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_health_second",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_health_second",
+  "output_root": "D:\\visualization2026\\dowsample2_health_second",
+  "anchor_frame": 212,
+  "repair_start_frame": 0,
+  "repair_end_frame": 210,
+  "repaired_frame_count": 106,
+  "mean_original_green_error_px": 128.89015189592914,
+  "max_corrected_green_error_px": 2.5421149729252077e-13
+}

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets and hardware-specific settings
+wifi_secrets.h
+*.local
+*.env
+
+# Generated experiment outputs
+runningdata/
+plot/
+outputs/
+logs/
+*.log
+hardware/cad/export_log.txt
+hardware/cad/export_inbox/
+experiments/binocular_visualization/hess_matched_results/**/stitched_frames/
+experiments/binocular_visualization/hess_matched_results/**/stitched_frames_flipped_cropped/
+experiments/binocular_visualization/hess_matched_results/**/debug*/
+
+# Large temporary media generated locally
+*.tmp.avi
+*.tmp.mp4
+*.tmp.mov

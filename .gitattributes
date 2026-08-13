@@ -1,0 +1,6 @@
+*.avi -diff
+*.f3z -diff
+*.mp4 -diff
+*.npz -diff
+*.stl -diff
+*.step -diff

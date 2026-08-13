@@ -1,0 +1,23 @@
+{
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_health_second",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_health_second",
+  "output_dir": "D:\\visualization2026\\dowsample2_health_second",
+  "stitched_dir": "D:\\visualization2026\\dowsample2_health_second\\stitched_frames",
+  "matrices_dir": "D:\\visualization2026\\dowsample2_health_second\\matrices",
+  "frame_count_requested": 900,
+  "frame_count_written": 900,
+  "status_counts": {
+    "accepted": 653,
+    "reused_previous": 247
+  },
+  "full_inner_corner_pattern": [
+    6,
+    8
+  ],
+  "min_inner_corner_pattern": [
+    3,
+    3
+  ],
+  "stitch_plane": "right",
+  "elapsed_seconds": 2922.7045423984528
+}

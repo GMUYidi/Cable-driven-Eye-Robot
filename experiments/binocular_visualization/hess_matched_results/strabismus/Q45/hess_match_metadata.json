@@ -1,0 +1,57 @@
+{
+  "case_id": "Q45",
+  "left_dir": "D:\\visualization2026\\visualization\\left_downsample2_Q45",
+  "right_dir": "D:\\visualization2026\\visualization\\right_downsample2_Q45",
+  "base_matrix_npz": "D:\\visualization2026\\dowsample2_Q45\\matrices\\applied_health_second_homographies_Q45.npz",
+  "base_stitched_dir": "D:\\visualization2026\\dowsample2_Q45\\stitched_frames",
+  "strabismus_mat": "D:\\visualization2026\\Hess chart\\bilinear interpolation\\strabismus data\\simulated_strabismus_Q45.mat",
+  "mat_key": "SGazeAngleSmoothed_cell",
+  "output_dir": "D:\\visualization2026\\dowsample2_Q45_hess_matched\\stitched_frames",
+  "matrix_output_npz": "D:\\visualization2026\\dowsample2_Q45_hess_matched\\matrices\\hess_matched_homographies_Q45.npz",
+  "report_csv": "D:\\visualization2026\\dowsample2_Q45_hess_matched\\hess_match_report.csv",
+  "debug_sheet": "D:\\visualization2026\\dowsample2_Q45_hess_matched\\debug\\q45_horizontal_scale_fix_samples.jpg",
+  "frame_count": 900,
+  "angle_metadata": {
+    "mat_key": "SGazeAngleSmoothed_cell",
+    "angle_rows": 1800,
+    "frame_index_min": 0,
+    "frame_index_max": 1798,
+    "split_min_xy_deg": [
+      0.5402858881206347,
+      0.16664698541383416
+    ],
+    "split_max_xy_deg": [
+      9.521204306327299,
+      8.02928116491184
+    ]
+  },
+  "angle_to_pixel_mapping": [
+    [
+      -2.7055130860318144,
+      20.368091063730972
+    ],
+    [
+      -10.45761732704905,
+      25.878037645610053
+    ]
+  ],
+  "mapping_inlier_count": 733,
+  "selected_pair_error_median_px": 29.35912963421795,
+  "selected_pair_error_p90_px": 61.23208116030568,
+  "selected_pair_error_max_px": 127.49543666363594,
+  "final_error_median_px": 15.768626899759347,
+  "final_error_p90_px": 42.53198964130154,
+  "final_error_max_px": 183.76097290963983,
+  "correction_median_px": 21.379044376145217,
+  "correction_p90_px": 44.114756606368125,
+  "correction_max_px": 103.97940025490826,
+  "interpolated_correction_count": 41,
+  "method": "Raw left/right green-marker detections projected through repaired health_second canvas homographies; split translations force the left-minus-right image-space marker vector to follow the fitted SGazeAngleSmoothed_cell trajectory.",
+  "q45_horizontal_scale_fix": {
+    "horizontal_px_per_deg": 35.0,
+    "ramp_start_frame": 540,
+    "full_start_frame": 600,
+    "source_preview_root": "D:\\visualization2026\\dowsample2_Q45_hess_matched_rawgreen_preview",
+    "method": "Additional symmetric canvas translation. Horizontal target uses max(auto target, horizontal_px_per_deg * SGazeAngle left-minus-right horizontal split), ramped in before 5 s."
+  }
+}
